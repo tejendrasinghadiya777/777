@@ -26,9 +26,7 @@ const createItineraryService = asyncHandler(async (itineraryData) => {
 
 const deleteItineraryService = asyncHandler(async (itineraryId) => {
     const itinerary = await Itinerary.findByIdAndDelete(itineraryId);
-    if(itinerary){
-        cache.del(JSON.stringify(itineraryId));
-    }
+    cache.del(JSON.stringify(itineraryId));
     return itinerary;
 }
 );
