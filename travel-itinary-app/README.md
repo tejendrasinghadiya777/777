@@ -26,11 +26,7 @@ A Node.js application for managing travel itineraries, featuring REST and GraphQ
    ```
 
 ## Creating a Docker Image for the Web Application
-
-1. **Build the Docker image:**
-   ```bash
-   docker build -t travel-itinerary-app .
-   
+ 
 ## Running with Docker Compose
 
 1. **Build and start all services:**
