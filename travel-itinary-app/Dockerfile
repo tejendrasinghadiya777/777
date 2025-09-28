@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install && npm cache clean --force
+RUN npm install && npm cache clean --force && npm install --save-dev jest
 
 # Copy the rest of the application code
 COPY . .
