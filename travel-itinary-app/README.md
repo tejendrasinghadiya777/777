@@ -22,7 +22,7 @@ A Node.js application for managing travel itineraries, featuring REST and GraphQ
 1. **Clone the repository:**
    ```bash
    git clone <your-repo-url>
-   cd 777-main/travel-itinary-app
+   cd 777/travel-itinary-app
    ```
 
 ## Creating a Docker Image for the Web Application
